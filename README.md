@@ -19,7 +19,7 @@ Installation:
   Search and view items: In the search bar, type the desired item (e.g., "fruits") to see the corresponding item tiles with a parallax effect.
 
 Project structure:
-  PyImageSearchParallax/
+  Python_Django_SQL_Image_Searcher/
   ├── main.py
   ├── django.py
   ├── sqlquery.py
@@ -34,7 +34,7 @@ Project structure:
   │   └── index.html
   ├── dataset/
   │   └── (item images in JPG format)
-  └── PyImageSearchParallax/
+  └── Python_Django_SQL_Image_Searcher/
       ├── __init__.py
       ├── settings.py
       ├── urls.py
