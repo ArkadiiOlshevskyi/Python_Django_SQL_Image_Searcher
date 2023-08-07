@@ -39,3 +39,37 @@ Project structure:
       ├── settings.py
       ├── urls.py
       └── views.py
+
+
+
+
+
+WORK WITH DATABASE
+
+  Create and use Mysql database from shell terminal (on windows11)
+
+1) install Mysql (workbench and shell) from ORACLE website (follow the guide , set your root user and password)
+2) launch Mysql Shell terminalwindow
+3) \sql		- type this to switch language in terminal so sql language
+4) \connect root@localhost -p		- you are connecting to your sql database on server (you can use another server not localhost)
+5) enter your password
+
+
+* always ues ; in the end of command
+** you can use ENTER and , also to wright multiline [open\close (parenteces)] commands but dont forget to finish it with ;
+
+
+When connected you can start to work with your database
+6) SHOW DATABASES;		- shows all databases awaliable in this local database(server)
+7) CREATE DATABASE _________;		- where afrer in __ you tepe name of you database in lowercase with_
+8) USE _________;	- use your __database to works with
+
+
+Here is example of multiline command (use enter) for talbe creation:
+9) CREATE TABLE ________ (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50),
+	
+);
+
+10) 
